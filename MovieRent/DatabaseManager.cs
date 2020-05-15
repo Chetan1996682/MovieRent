@@ -9,7 +9,7 @@ namespace MovieRent
     {
         //Change connection to Your Own Connection
 
-        SqlConnection Sqlconn = new SqlConnection(@"Data Source=LAPTOP-RAKIOMBV\SQLEXPRESS;Initial Catalog=VideoRental;Integrated Security=True");
+        SqlConnection Sqlconn = new SqlConnection(@"Data Source=Chetan-PC\SQLEXPRESS;Initial Catalog=VideoRental;Integrated Security=True");
         SqlCommand SqlStr = new SqlCommand();
         SqlDataReader SqlReader;
         string Sqlstmt;
